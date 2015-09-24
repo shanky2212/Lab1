@@ -11,10 +11,11 @@ public class Customer {
 	private String city;
 	private double balance;
 	
-	public Customer(){}
+	public Customer(){System.out.println("Default Constructor")}
+	
 	
 	public Customer(String cname, String email, long phone, String city, double balance) {
-
+        
 		this.cname = cname;
 		this.email = email;
 		this.phone = phone;
